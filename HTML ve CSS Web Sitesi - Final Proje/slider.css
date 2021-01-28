@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family:'Open Sans', sans-serif; font-size:14px}
+.slider{width:550px; position:relative; height:400px}
+.slider .images li{float:left; display:none}
+.slider .images li:first-child{display:block}
+.slider .images li img{width:550px; height:400px;}
+.slider .pages{ position:absolute; right:15px; bottom:15px; border-radius:15px; overflow:hidden }
+.slider .pages li{float:left}
+.slider .pages li a{padding:10px 15px; display:block; background:#F44336; color:#000000; 
+					border-right:1px solid #fff; transition:350ms; cursor:pointer}
+.slider .pages li a:hover{background:#fff; color:#333333}
+.slider .pages li a.active{background:#fff; color:#333333}
+.slider .pages li:last-child a{border-right:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

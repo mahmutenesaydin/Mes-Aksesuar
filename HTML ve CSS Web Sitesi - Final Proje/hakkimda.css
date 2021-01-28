@@ -1,0 +1,162 @@
+body {
+  background: url("images/kareler-turuncu-f129.jpg")
+}
+
+.hepsi {
+  width: 806px;
+  height: auto;
+  margin: 30px auto;
+}
+
+.logo {
+  width: 176px;
+  height: 107px;
+  background: url("images/mes.png") no-repeat;
+  float: left;
+}
+
+.logo:hover {
+  filter: grayscale(0);
+  transform: scale(1.1)
+}
+
+.menu {
+  width: 580px;
+  height: 47px;
+  float: left;
+  background: #FC4F01;
+  margin: 150px 0 0 -130px;
+  border-radius: 10px;
+  border: 1px solid #DD2C00
+}
+
+.sosyalMedya {
+  width: 150px;
+  height: 47px;
+  float: left;
+  padding: 10px 0 0 10px;
+  margin: 138px 0 0 0
+}
+
+.menu li {
+  float: left
+}
+
+.menu a {
+  display: block;
+  width: 145px;
+  height: 32px;
+  text-decoration: none;
+  text-align: center;
+  font: 13px tahoma;
+  padding: 15px 0 0 0;
+  color: #fff
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  background: #B55400;
+  border-radius: 10px;
+  filter: grayscale(0);
+  transform: scale(1.1)
+}
+
+.altOrta {
+  width: 740px;
+  height: 250px;
+  float: left;
+  margin: 35px 0 0 60px;
+  border-radius: 25px;
+  padding: 20px 0 0 0
+}
+
+.slogan {
+  width: 400px;
+  height: 40px;
+  background: url(images/checked.gif) no-repeat;
+  float: left;
+  font: 20px tahoma;
+  color: #24a4b7;
+  padding: 0 0 0 40px;
+  letter-spacing: 10px
+}
+
+.yazi1 {
+  font: bold 22px tahoma;
+  color: #d95b27
+}
+
+.aciklama {
+  width: 410px;
+  height: 150px;
+  background: url("images/caleceta.jpg") no-repeat;
+  float: left;
+  font: 12px tahoma;
+  color: #000;
+  text-align: justify;
+  line-height: 20px
+}
+
+.aciklama li {
+  display: block;
+  width: 402px;
+  height: 22px;
+  padding: 2px 0 0 0px;
+}
+
+.yazi2 {
+  font: bold 12px tahoma;
+  color: #d17750;
+}
+
+.yaziHakkimda {
+  font: bold 12px Tahoma;
+  color: #0E0000
+}
+
+.enAlt {
+  width: 740px;
+  height: 50px;
+  float: left;
+  margin: 25px 0 0 50px;
+}
+
+.altSol {
+  width: 435px;
+  height: 50px;
+  float: left;
+  font: 11px tahoma;
+  color: #000;
+  border-top: 1px solid #000;
+  padding: 30px 0 0 0
+}
+
+.altSag {
+  width: 255px;
+  height: 106px;
+  float: left;
+  padding: 30px 0 0 50px;
+  background: url("images/mesaks.png") right no-repeat;
+}
+
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
